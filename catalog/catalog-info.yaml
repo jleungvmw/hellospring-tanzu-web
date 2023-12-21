@@ -13,6 +13,6 @@ metadata:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=hellospring-tanzu-web'
     github.com/project-slug: jleungvmw/hellospring-tanzu-web
 spec:
-  type: service
-  lifecycle: experimental
+  type: other
+  lifecycle: unknown
   owner: default-team
