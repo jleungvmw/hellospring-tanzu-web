@@ -21,3 +21,4 @@ k8s_custom_deploy(
 
 k8s_resource('hellospring-tanzu-web', port_forwards=["8080:8080"],
             extra_pod_selectors=[{'carto.run/workload-name': 'hellospring-tanzu-web', 'app.kubernetes.io/component': 'run'}])
+allow_k8s_contexts('workload-02-admin@workload-02')
